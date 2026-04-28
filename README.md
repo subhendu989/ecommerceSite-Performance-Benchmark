@@ -42,3 +42,28 @@ The goal of this project was to simulate real-world user traffic to identify sys
 2. Run the command:
    ```bash
    k6 run k6/report.js
+
+### For JMeter:
+1. Open Apache JMeter.
+2. Load the file `jmeter/Giftify_Master_Test_Plan.jmx`.
+3. Click the Start button (Green Arrow) to execute the test.
+
+---
+
+## ✅ Recommendations
+
+- **Vertical Scaling:** Increasing server CPU and RAM is necessary to handle high traffic spikes.
+- **Database Optimization:** Optimize slow queries and implement database connection pooling.
+- **Load Balancing:** Deploying a Load Balancer is recommended to distribute concurrent traffic effectively during spikes.
+
+---
+
+## 👤 Author
+
+**Subhendu Bachhar Setu**  
+Software Quality Assurance (SQA) Engineer
+
+- LinkedIn: [linkedin.com/in/subhendubachhar](https://linkedin.com/in/subhendubachhar)
+- GitHub: [subhendu989](https://github.com/subhendu989)
+
+> **Note:** This project is for demo and practice purposes.
