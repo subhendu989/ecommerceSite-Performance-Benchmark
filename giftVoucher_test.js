@@ -18,7 +18,7 @@ export const options = {
 };
 
 export default function () {
-  const url = 'https://giftify.sparktro.cloud'; 
+  const url = 'https://your-ecommerce-site.com'; 
   
   // Request Send
   const res = http.get(url);

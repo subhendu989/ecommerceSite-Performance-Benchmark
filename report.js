@@ -21,7 +21,7 @@ export const options = {
 
 export default function () {
   //demo site URL
-  const url = 'https://giftify.sparktro.cloud/'; 
+  const url = 'https://your-ecommerce-site.com'; 
   
   const res = http.get(url);
 
